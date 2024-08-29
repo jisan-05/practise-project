@@ -25,8 +25,8 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body class="inter-font">
-    <header>
-      <nav class="container mx-auto mt-4">
+    <header class="container mx-auto px-7 lg:px-20">
+      <nav class="mt-4">
         <div class="navbar bg-base-100">
           <div class="navbar-start">
             <a class=""
@@ -85,40 +85,72 @@
                 tabindex="0"
                 class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow absolute right-0"
               >
-              <li >
-                <details>
-                  <summary>Avada</summary>
-                  <ul class="p-2">
-                    <li><a>Submenu 1</a></li>
-                    <li><a>Submenu 2</a></li>
-                  </ul>
-                </details>
-              </li>
-              <li>
-                <details>
-                  <summary>Avada for</summary>
-                  <ul class="p-2">
-                    <li><a>Submenu 1</a></li>
-                    <li><a>Submenu 2</a></li>
-                  </ul>
-                </details>
-              </li>
-              <li><a>Hosting</a></li>
-              <li><a>Customization</a></li>
-              <li>
-                <details>
-                  <summary>Resources</summary>
-                  <ul class="p-2">
-                    <li><a>Submenu 1</a></li>
-                    <li><a>Submenu 2</a></li>
-                  </ul>
-                </details>
-              </li>
+                <li>
+                  <details>
+                    <summary>Avada</summary>
+                    <ul class="p-2">
+                      <li><a>Submenu 1</a></li>
+                      <li><a>Submenu 2</a></li>
+                    </ul>
+                  </details>
+                </li>
+                <li>
+                  <details>
+                    <summary>Avada for</summary>
+                    <ul class="p-2">
+                      <li><a>Submenu 1</a></li>
+                      <li><a>Submenu 2</a></li>
+                    </ul>
+                  </details>
+                </li>
+                <li><a>Hosting</a></li>
+                <li><a>Customization</a></li>
+                <li>
+                  <details>
+                    <summary>Resources</summary>
+                    <ul class="p-2">
+                      <li><a>Submenu 1</a></li>
+                      <li><a>Submenu 2</a></li>
+                    </ul>
+                  </details>
+                </li>
               </ul>
             </div>
           </div>
         </div>
       </nav>
+      <!-- hero section  -->
+      <div class="flex flex-col lg:flex-row items-center mt-12">
+        <div class="space-y-9  2xl:space-y-11 lg:w-2/5 w-full">
+          <h1 class="text-5xl md:text-6xl font-bold">
+            The Ultimate<br class="hidden lg:block" /> Portfolio<br class="hidden lg:block" />
+            Website Builder
+          </h1>
+          <p class="text-gray-500 text-lg">
+            Trusted by beginners, marketers & professionals; Built with
+            usability and performance in mind.
+          </p>
+          <button
+            class="px-8 py-4 bg-gray-800 hover:bg-gray-900 text-white rounded-md"
+          >
+            Start Building <i class="fa-solid fa-arrow-right ms-1"></i>
+          </button>
+          <img src="./Images/small-separator.png" alt="" class="w-full" />
+          <div class="flex flex-col lg:flex-row gap-6 lg:gap-16">
+            <div class="space-y-2">
+              <h3 class="text-3xl font-bold">975k+</h3>
+              <p class="text-gray-500 text-sm">People Trust Avada</p>
+            </div >
+            <div class="space-y-2 mb-5 md:mb-0">
+              <h3 class="text-3xl font-bold">26k+</h3>
+              <p class="text-gray-500 text-sm ">Average 5-Star Reviews</p>
+            </div>
+          </div>
+        </div>
+        <div class="lg:w-3/5 w-full">
+          <img src="./Images/home-hero-20@2x.jpg" alt="" class="w-full" />
+        </div>
+      </div>
     </header>
 
     <style>
